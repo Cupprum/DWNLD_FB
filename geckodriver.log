@@ -4429,3 +4429,482 @@ Line: 1690, column: 0
 1522864727786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1522864728383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
 1522864729101	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522866021037	geckodriver	INFO	geckodriver 0.20.0
+1522866021055	geckodriver	INFO	Listening on 127.0.0.1:38543
+1522866022368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kziJ3Pp5Fg2l"
+1522866023264	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522866023554	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522866023556	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522866023870	Marionette	INFO	Enabled via --marionette
+1522866025818	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522866026492	Marionette	INFO	Listening on port 42009
+1522866026514	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522866026635	Marionette	DEBUG	Register listener.js for window 2147483649
+1522866026708	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522866026980	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522866026981	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522866027606	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522866028260	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+[Parent 7303, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0b12/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 7303, Gecko_IOThread] WARNING: pipe error (51): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0b12/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522866041610	geckodriver	INFO	geckodriver 0.20.0
+1522866041628	geckodriver	INFO	Listening on 127.0.0.1:35267
+1522866042760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oierXSvpGyQU"
+1522866043102	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522866043304	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522866043306	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522866043451	Marionette	INFO	Enabled via --marionette
+1522866044920	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522866045198	Marionette	INFO	Listening on port 44097
+1522866045472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522866045581	Marionette	DEBUG	Register listener.js for window 2147483649
+1522866045635	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522866045958	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522866045958	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522866046510	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522866047163	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1766:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1766, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1766:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1766, column: 11
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1690, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522869594724	geckodriver	INFO	geckodriver 0.20.0
+1522869594743	geckodriver	INFO	Listening on 127.0.0.1:44375
+1522869596094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bfyZgMYlm9Uz"
+1522869597120	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869597590	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522869597592	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522869598015	Marionette	INFO	Enabled via --marionette
+1522869600282	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869600635	Marionette	INFO	Listening on port 39875
+1522869600659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522869600781	Marionette	DEBUG	Register listener.js for window 2147483649
+1522869601040	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522869601410	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522869601410	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522869602412	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522869603154	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+
+(/usr/lib64/firefox/firefox:8624): dconf-WARNING **: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522869625014	geckodriver	INFO	geckodriver 0.20.0
+1522869625033	geckodriver	INFO	Listening on 127.0.0.1:50017
+1522869626229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vnuuI6QHYekU"
+1522869626881	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869627143	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522869627146	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522869627412	Marionette	INFO	Enabled via --marionette
+1522869629396	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869629694	Marionette	INFO	Listening on port 33603
+1522869629987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522869630096	Marionette	DEBUG	Register listener.js for window 2147483649
+1522869630156	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522869630457	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522869630458	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522869631065	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522869631779	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522869749136	geckodriver	INFO	geckodriver 0.20.0
+1522869749156	geckodriver	INFO	Listening on 127.0.0.1:53621
+1522869750385	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ICM4w0RnuCx9"
+1522869751322	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869751642	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522869751645	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522869752101	Marionette	INFO	Enabled via --marionette
+1522869754349	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869754668	Marionette	INFO	Listening on port 32823
+1522869754726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522869754827	Marionette	DEBUG	Register listener.js for window 2147483649
+1522869755076	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522869755423	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522869755423	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522869757518	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522869758227	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522869781610	geckodriver	INFO	geckodriver 0.20.0
+1522869781627	geckodriver	INFO	Listening on 127.0.0.1:44217
+1522869782782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Uxjk6bGsdZi7"
+1522869783577	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869783836	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522869783839	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522869784106	Marionette	INFO	Enabled via --marionette
+1522869785993	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869786282	Marionette	INFO	Listening on port 37825
+1522869786589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522869786711	Marionette	DEBUG	Register listener.js for window 2147483649
+1522869786786	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522869787049	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522869787049	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522869787682	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522869788396	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/webconsole/new-console-output/new-console-output-wrapper.js, line 77: TypeError: this.jsterm.hud is null
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1690, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+1522869894546	geckodriver	INFO	geckodriver 0.20.0
+1522869894562	geckodriver	INFO	Listening on 127.0.0.1:60871
+1522869895718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.UtRKBLHBW69d"
+1522869896484	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869896744	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522869896746	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522869897002	Marionette	INFO	Enabled via --marionette
+1522869898943	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522869899236	Marionette	INFO	Listening on port 40877
+1522869899279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522869899388	Marionette	DEBUG	Register listener.js for window 2147483649
+1522869899638	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522869900311	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522869900311	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522869902593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522869903250	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+
+(/usr/lib64/firefox/firefox:9401): dconf-WARNING **: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1522870157154	geckodriver	INFO	geckodriver 0.20.0
+1522870157172	geckodriver	INFO	Listening on 127.0.0.1:36137
+1522870158290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zjZ9ml1Has5u"
+1522870158888	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870159126	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522870159128	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522870159354	Marionette	INFO	Enabled via --marionette
+1522870161066	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870161755	Marionette	INFO	Listening on port 46679
+1522870161821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522870161950	Marionette	DEBUG	Register listener.js for window 2147483649
+1522870161986	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522870162539	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522870162540	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522870163233	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522870163979	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+
+(/usr/lib64/firefox/firefox:9705): dconf-WARNING **: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1522870173313	Marionette	DEBUG	Register listener.js for window 2147483657
+1522870173396	Marionette	DEBUG	Register listener.js for window 2147483659
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522870208075	geckodriver	INFO	geckodriver 0.20.0
+1522870208084	geckodriver	INFO	Listening on 127.0.0.1:42905
+1522870208187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5klNjUtEN3gk"
+1522870208574	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870208784	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522870208786	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522870208944	Marionette	INFO	Enabled via --marionette
+1522870210469	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870210820	Marionette	INFO	Listening on port 33583
+1522870211129	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522870211247	Marionette	DEBUG	Register listener.js for window 2147483649
+1522870211296	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522870211842	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522870211842	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522870212578	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522870213291	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+
+(/usr/lib64/firefox/firefox:9952): dconf-WARNING **: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1522870217622	Marionette	DEBUG	Register listener.js for window 2147483656
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522870243253	geckodriver	INFO	geckodriver 0.20.0
+1522870243262	geckodriver	INFO	Listening on 127.0.0.1:37915
+1522870244386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Eo9B3JBsT5wp"
+1522870244780	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870244985	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522870244986	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522870245146	Marionette	INFO	Enabled via --marionette
+1522870246652	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870247213	Marionette	INFO	Listening on port 44685
+1522870247339	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522870247437	Marionette	DEBUG	Register listener.js for window 2147483649
+1522870247492	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522870248001	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522870248002	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522870248625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522870249369	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+
+(/usr/lib64/firefox/firefox:10121): dconf-WARNING **: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+1522870259662	Marionette	DEBUG	Register listener.js for window 2147483656
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522870503390	geckodriver	INFO	geckodriver 0.20.0
+1522870503399	geckodriver	INFO	Listening on 127.0.0.1:56279
+1522870504478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6fMTpfstugdP"
+1522870504809	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870505014	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522870505015	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522870505166	Marionette	INFO	Enabled via --marionette
+1522870506689	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870506960	Marionette	INFO	Listening on port 38401
+1522870507265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522870507359	Marionette	DEBUG	Register listener.js for window 2147483649
+1522870507412	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522870507931	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522870507931	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522870508594	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522870509334	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+
+(/usr/lib64/firefox/firefox:10485): dconf-WARNING **: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522870520019	geckodriver	INFO	geckodriver 0.20.0
+1522870520027	geckodriver	INFO	Listening on 127.0.0.1:33101
+1522870521105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HvQ84lgTXN8T"
+1522870521501	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870521775	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522870521777	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522870521985	Marionette	INFO	Enabled via --marionette
+1522870523502	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522870523787	Marionette	INFO	Listening on port 42835
+1522870524057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522870524163	Marionette	DEBUG	Register listener.js for window 2147483649
+1522870524231	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522870524500	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522870524501	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522870525042	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522870525766	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522870536187	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1522870536274	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1522870536296	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1522870536886	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1522870536887	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522870537187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522870539831	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10599, Gecko_IOThread] WARNING: pipe error (50): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0b12/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522871959901	geckodriver	INFO	geckodriver 0.20.0
+1522871959925	geckodriver	INFO	Listening on 127.0.0.1:52647
+1522871961168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.A1MlMjmQDigr"
+1522871962077	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522871962333	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522871962336	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522871962642	Marionette	INFO	Enabled via --marionette
+1522871964637	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522871964959	Marionette	INFO	Listening on port 44045
+1522871965271	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522871965376	Marionette	DEBUG	Register listener.js for window 2147483649
+1522871965437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522871965764	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522871965765	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522871966386	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522871967020	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522871975450	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1522871975525	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1522871975546	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1522871976114	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1522871976115	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522871976398	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522871978991	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1522872183493	geckodriver	INFO	geckodriver 0.20.0
+1522872183511	geckodriver	INFO	Listening on 127.0.0.1:49183
+1522872184678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JySq151n2SAB"
+1522872185454	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522872185702	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522872185705	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522872185947	Marionette	INFO	Enabled via --marionette
+1522872187761	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522872188389	Marionette	INFO	Listening on port 39519
+1522872188425	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522872188545	Marionette	DEBUG	Register listener.js for window 2147483649
+1522872188609	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522872188879	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522872188880	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522872189458	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522872190128	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522872198649	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1522872198725	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1522872198745	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1522872199388	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1522872199389	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522872199660	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522872202155	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
