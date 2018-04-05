@@ -24,14 +24,33 @@ time.sleep(8)
 
 webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
-driver.get("https://www.facebook.com/SOMERANDOMPERSON")
+driver.get("https://www.facebook.com/b.tallova")
 
 time.sleep(8)
 
 webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
-login_form = driver.find_element_by_xpath("//div[contains(.,'Hello Justin')]")
+SCROLL_PAUSE_TIME = 0.5
 
-actions = ActionChains(driver)
-actions.move_to_element(login_form).perform()
+# Get scroll height
+last_height = driver.execute_script("return document.body.scrollHeight")
 
+while True:
+    # Scroll down to bottom
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+    # Wait to load page
+    time.sleep(SCROLL_PAUSE_TIME)
+
+    # Calculate new scroll height and compare with last scroll height
+    new_height = driver.execute_script("return document.body.scrollHeight")
+    if new_height == last_height:
+        break
+    last_height = new_height
+
+obsah = str(driver.page_source)
+
+time.sleep(1)
+
+print(obsah.count("Zobraziť 10 ďalších komentárov"))
+print(obsah.count("odpoved"))

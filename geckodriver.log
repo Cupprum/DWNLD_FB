@@ -4908,3 +4908,189 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
+1522949993165	geckodriver	INFO	geckodriver 0.20.0
+1522949993184	geckodriver	INFO	Listening on 127.0.0.1:33323
+1522949994409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.838RajSF9hTL"
+1522949995062	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522949995358	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522949995361	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522949995629	Marionette	INFO	Enabled via --marionette
+1522949997560	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522949998237	Marionette	INFO	Listening on port 42389
+1522949998352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522949998446	Marionette	DEBUG	Register listener.js for window 2147483649
+1522949998512	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522949998810	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522949998811	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522949999326	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522950000051	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522950008539	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1522950008722	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1522950008743	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1522950009300	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1522950009301	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522950010010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/somerandom.person"
+1522950011727	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1522950011823	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1522950011954	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1522950012125	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/somerandom.person"
+JavaScript error: chrome://browser/content/pageinfo/permissions.js, line 225: Error: Callback received for bad URI: [xpconnect wrapped nsIURI]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/layout/utils.js, line 42: NS_NOINTERFACE: 
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1690"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1690:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1690, column: 0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1522950416683	geckodriver	INFO	geckodriver 0.20.0
+1522950416700	geckodriver	INFO	Listening on 127.0.0.1:52031
+1522950417879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NI506EZA0evP"
+1522950418400	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522950418631	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522950418634	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522950418872	Marionette	INFO	Enabled via --marionette
+1522950420572	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522950421156	Marionette	INFO	Listening on port 32993
+1522950421226	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522950421326	Marionette	DEBUG	Register listener.js for window 2147483649
+1522950421357	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522950421656	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522950421657	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522950422232	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522950422993	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522950431429	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1522950431511	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1522950431534	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1522950432103	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1522950432104	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1522950432112	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1522950432113	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522950433088	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522950435134	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+1522950709264	geckodriver	INFO	geckodriver 0.20.0
+1522950709280	geckodriver	INFO	Listening on 127.0.0.1:39673
+1522950710408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4iytYLS35E8k"
+1522950710754	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522950710969	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1522950710970	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1522950711128	Marionette	INFO	Enabled via --marionette
+1522950712578	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1522950713236	Marionette	INFO	Listening on port 41955
+1522950713335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522950713435	Marionette	DEBUG	Register listener.js for window 2147483649
+1522950713467	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522950713765	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522950713766	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522950714311	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1522950715078	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1522950723478	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1522950723561	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1522950723580	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1522950724719	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1522950724720	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1522950725350	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1522950727435	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+[Parent 6496, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builddir/build/BUILD/firefox-57.0b12/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
