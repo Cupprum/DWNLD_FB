@@ -33,11 +33,12 @@ webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 SCROLL_PAUSE_TIME = 0.5
 
-# Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
 
 while True:
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+    driver.execute_script(open_comments.js)
 
     time.sleep(SCROLL_PAUSE_TIME)
 
@@ -55,7 +56,6 @@ print(obsah.count("odpoveď"))
 
 print(re.findall(r'Zobraziť \d ďalšie komentáre', obsah))
 print(re.findall(r'Zobraziť \d\d ďalších komentárov', obsah))
-
 
 
 """
