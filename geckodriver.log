@@ -5346,3 +5346,84 @@ IPDL protocol error: Handler returned error code!
 1522958357263	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
 1522958357553	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
 1522958357556	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1523049309594	geckodriver	INFO	geckodriver 0.20.0
+1523049309611	geckodriver	INFO	Listening on 127.0.0.1:60779
+1523049310836	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zM1BzZw8nmLO"
+1523049311487	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1523049311773	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1523049311776	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1523049312031	Marionette	INFO	Enabled via --marionette
+1523049313939	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1523049314238	Marionette	INFO	Listening on port 46467
+1523049314534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523049314634	Marionette	DEBUG	Register listener.js for window 2147483649
+1523049314689	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523049315129	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523049315130	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523049315716	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1523049316393	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1523049322405	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1523049322532	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1523049322563	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1523049323228	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1523049323229	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1523049323229	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1523049323252	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1523049323604	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1523049326041	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1523049326768	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+1523049349393	Marionette	DEBUG	Register listener.js for window 2147483697
+1523049349512	Marionette	DEBUG	Register listener.js for window 2147483700
+1523049364808	Marionette	DEBUG	Register listener.js for window 2147483713
+1523049475825	geckodriver	INFO	geckodriver 0.20.0
+1523049475835	geckodriver	INFO	Listening on 127.0.0.1:53971
+1523049476007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OzFZaa8Hdo1R"
+1523049476501	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1523049476740	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1523049476743	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1523049476974	Marionette	INFO	Enabled via --marionette
+1523049478711	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1523049479379	Marionette	INFO	Listening on port 35989
+1523049479453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523049479549	Marionette	DEBUG	Register listener.js for window 2147483649
+1523049479581	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523049479877	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523049479878	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523049480423	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1523049481079	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1523049486577	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1523049486791	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1523049486823	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1523049488351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1523049488423	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1523049488424	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1523049488425	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1523049488426	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1523049491488	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523049607382	geckodriver	INFO	geckodriver 0.20.0
+1523049607391	geckodriver	INFO	Listening on 127.0.0.1:45333
+1523049608473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.skRvdj8zlg5Q"
+1523049608810	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1523049609014	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: this.loadManifestFromFile :: line 971"  data: no] Stack trace: this.loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:971 < syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:947 < addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1231 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3278 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2182 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3081 < observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:65
+1523049609017	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1523049609179	Marionette	INFO	Enabled via --marionette
+1523049610661	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1523049611290	Marionette	INFO	Listening on port 36989
+1523049611308	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523049611408	Marionette	DEBUG	Register listener.js for window 2147483649
+1523049611437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523049611716	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523049611717	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523049612297	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1523049612948	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1523049618415	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1523049618547	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1523049618572	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1523049620293	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/b.tallova"
+1523049620316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1523049620316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1523049620317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1523049620318	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1523049623293	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/b.tallova"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

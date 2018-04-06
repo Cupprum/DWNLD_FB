@@ -1,6 +1,6 @@
 
 javascript:(function () {
-    var todo = 7;
+    var todo = 6;
     var EXPAND_POST = 1;
     var EXPAND_COMMENTS = 2;
     var EXPAND_REPLIES = 4;
@@ -50,8 +50,8 @@ javascript:(function () {
     }
 
     function showStatusWindow() {
-        var WANT_W = 300;
-        var WANT_H = 200;
+        var WANT_W = 0;
+        var WANT_H = 0;
         var sizer = document.getElementsByTagName("html")[0];
         var w = sizer.clientWidth;
         var h = sizer.clientHeight;

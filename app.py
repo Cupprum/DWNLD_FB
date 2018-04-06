@@ -31,14 +31,14 @@ time.sleep(2)
 
 webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
-SCROLL_PAUSE_TIME = 0.5
+SCROLL_PAUSE_TIME = 5
 
 last_height = driver.execute_script("return document.body.scrollHeight")
 
 while True:
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
-    driver.execute_script(open_comments.js)
+    driver.execute_script(open("./fetcher.js").read())
 
     time.sleep(SCROLL_PAUSE_TIME)
 
@@ -47,19 +47,11 @@ while True:
         break
     last_height = new_height
 
+time.sleep(10)
+
 obsah = str(driver.page_source)
 
-time.sleep(1)
+txt = open("final_html.html", "w")
 
-print(obsah.count("Zobraziť"))
-print(obsah.count("odpoveď"))
-
-print(re.findall(r'Zobraziť \d ďalšie komentáre', obsah))
-print(re.findall(r'Zobraziť \d\d ďalších komentárov', obsah))
-
-
-"""
-Zobraziť 1 ďalší komentár
-Zobraziť 3 ďalšie komentáre
-Zobraziť 10 ďalších komentárov
-"""
+for x in obsah:
+    txt.write(x)
