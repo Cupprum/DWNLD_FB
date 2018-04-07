@@ -26,7 +26,7 @@ password.send_keys(Keys.RETURN)
 
 time.sleep(3)
 
-driver.get("https://www.facebook.com/b.tallova")
+driver.get("https://www.facebook.com/poslednykriziak/")
 
 time.sleep(2)
 
