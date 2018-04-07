@@ -1,12 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.chrome.options import Options
 import time
 import os
-import re
 
 
-driver = webdriver.Firefox()
+chrome_options = Options()
+chrome_options.add_argument("--window-size=1920x1080")
+chrome_options.add_argument("--disable-notifications")
+
+driver = webdriver.Chrome(chrome_options=chrome_options)
 driver.get("https://www.facebook.com")
 
 my_fb_mail = os.environ["FB_MAIL"]
@@ -21,17 +24,13 @@ password.clear()
 password.send_keys(my_fb_pass)
 password.send_keys(Keys.RETURN)
 
-time.sleep(5)
-
-webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+time.sleep(3)
 
 driver.get("https://www.facebook.com/b.tallova")
 
 time.sleep(2)
 
-webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
-
-SCROLL_PAUSE_TIME = 5
+SCROLL_PAUSE_TIME = 3
 
 last_height = driver.execute_script("return document.body.scrollHeight")
 
